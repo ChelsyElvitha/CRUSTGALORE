@@ -1,0 +1,391 @@
+<html lang="en">
+<head><title> BAGEL </title>
+    <link rel="icon" type="image/png" href="assets/icon/cglogo.png">
+    <link href="sstyle.css"  type="text/css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<style>
+.icon-bar {
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 10px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.whatsapp {
+  background: #008000;
+  color: white;
+  border-radius: 50%;
+}
+
+.email {
+  background: #FF0000;
+  color: white;
+  border-radius: 50%;
+}
+
+.telegram {
+  background: #1E90FF;
+  color: white;
+  border-radius: 50%;
+}
+
+</style>
+
+<div class="icon-bar">
+  <a href="https://wa.me/0139361004" target="blank" class="whatsapp">
+  <i class="fa fa-whatsapp" style="font-size:19px"></i></a>
+<br>
+  <a href="mailto:crustgalorehelp@gmail.com" target="blank" class="email">
+  <i class="fa fa-envelope" style="font-size:19px"></i></a>
+<br>
+  <a href="https://t.me/Laventira" target="blank" class="telegram">
+  <i class="fa fa-telegram" style="font-size:19px"></i></a> 
+</div>
+
+<!---START TO TOP BUTTON--->
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #CF6856;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: black;
+}
+</style>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<!---END OF TO TOP BUTTON--->
+
+<!---START NAVIGATION BAR--->
+<div class="wrapper">
+ <div class="section">
+  <div class="top_navbar" id="main">
+<ul>
+  <li><a class="active" href="index.html">HOME</a></li>
+  <li><a href="aboutus.html">ABOUT US</a></li>
+      <div class="dropdown">
+       <button class="dropbtn">SHOP
+        <i class="fa fa-caret-down">
+        </i>
+       </button>
+        <div class="dropdown-contentop">
+        <a href="dailymeals.html">Daily Meals</a>
+        <a href="specialdays.html">Special Days</a>
+        </div>
+      </div>
+      <div class="dropdown">
+       <button class="dropbtn">PRODUCTS
+        <i class="fa fa-caret-down">
+        </i>
+       </button>
+        <div class="dropdown-contentop">
+        <a href="wheat.html">Wheat</a>
+        <a href="bagel.html">Bagel</a>
+        <a href="baguette.html">Baguette</a>
+        <a href="rolls.html">Rolls</a>
+        <a href="croissant.html">Croissant</a>
+        </div>
+      </div>
+  <li><a href="faqs.html">FAQs</a></li>
+  <li><a href="contactus.html">CONTACT US</a></li>
+</ul>
+  <div id="main">
+   <div class="hamburger">
+       <div class="section">
+       <button id="hamburger" class="w3-button w3-hover-white w3-xxlarge w3-left" onclick="w3_open()">&#9776;</button>
+       <script>
+  	function w3_open() {
+ 	document.getElementById("main").style.marginLeft = "9.7%";
+  	document.getElementById("mySidebar").style.width = "9.7%";
+  	document.getElementById("mySidebar").style.display = "block";
+  	document.getElementById("hamburger").style.display = 'none';
+	}
+ 	function w3_close() {
+  	document.getElementById("main").style.marginLeft = "0%";
+  	document.getElementById("mySidebar").style.display = "none";
+  	document.getElementById("hamburger").style.display = "inline-block";
+	}
+       </script>
+       </div>
+   </div>
+  </div>
+
+
+<!---CONTENT STARTS HERE--->
+  <div class="container">
+
+<h1>
+<font face="candara">
+<strong>
+<center>
+CROISSANT
+</center>
+</font>
+</strong>
+</h1>
+	<div class="centerflipcards">
+  	 <div class="square-flip">
+  	  <div class='square' data-image="https://images.unsplash.com/photo-1477313372947-d68a7d410e9f?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb">
+     	   <div class="square-container">
+            <div class="align-center"><img src="assets/image/butter.jpg" style="width:325px;height:400px; class="boxshadow" alt="">
+            </div>
+        <h2 class="textshadow">Butter Rolls</h2>
+        <h3 class="textshadow">The #1 Selling Most Enjoyable and Creative Multipurpose WordPress theme.</h3>
+           </div>
+           <div class="flip-overlay"></div>
+          </div>
+          <div class='square2' data-image="https://images.unsplash.com/photo-1477313372947-d68a7d410e9f?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb">
+           <div class="square-container2">
+            <div class="align-center">
+            </div>
+        <h2>RM4.50</h2>
+          </div>
+       <div class="flip-overlay"></div>
+      </div>
+     </div>
+  <div class="square-flip">
+    <div class='square' data-image="https://instagram.fotp3-2.fna.fbcdn.net/t51.2885-15/e35/14712096_386502691740262_2357154798815412224_n.jpg?ig_cache_key=MTM2NzU2MzUwNjQ3OTUzOTgxNQ%3D%3D.2">
+      <div class="square-container">
+        <div class="align-center"><img src="assets/image/crescentrolls.jpg" style="width:325px;height:400px; class="boxshadow" alt=""></div>
+        <h2 class="textshadow">Crescent Rolls</h2>
+        <h3 class="textshadow">The #1 Selling Most Enjoyable and Creative Multipurpose WordPress theme.</h3>
+      </div>
+      <div class="flip-overlay"></div>
+    </div>
+    <div class='square2' data-image="http://titanicthemes.com/files/flipbox/kallyas-wedding.jpg">
+      <div class="square-container2">
+        <div class="align-center"></div>
+        <h2>RM8.90</h2>
+      </div>
+      <div class="flip-overlay"></div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
+
+  <div class="square-flip">
+    <div class='square' >
+      <div class="square-container">
+        <div class="align-center"><img src="assets/image/honeywheatrolls.jpg" style="width:325px;height:400px; class="boxshadow" alt="" ></div>
+        <h2 class="textshadow">Honey Wheat Rolls</h2>
+        <h3 class="textshadow">The #1 Selling Most Enjoyable and Creative Multipurpose WordPress theme.</h3>
+      </div>
+      <div class="flip-overlay"></div>
+    </div>
+    <div class='square2' data-image="http://titanicthemes.com/files/flipbox/kallyas-wedding.jpg">
+      <div class="square-container2">
+        <div class="align-center"></div>
+        <h2>RM7.70</h2>
+      </div>
+      <div class="flip-overlay"></div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</font></p>
+
+  </div>
+ </div>
+</div>
+
+<!---CONTENT ENDS HERE--->
+
+<!--SIDE MENU -->
+<div class="wrapper">
+ <div class="section">
+  <div id="main">
+   <div class="sidebar w3-bar-block w3-card w3-animate-right" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-hover-white w3-xxlarge"
+  onclick="w3_close()"><font color="#7A3E26">&times;</font></button>
+<script>
+
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("hamburger").style.display = "inline-block";
+}
+</script>
+     <!--CG LOGO SIDEBAR-->
+     <div class="cglogo">
+	<a href= "assets/icon/cglogo.png" target="blank">
+       <img src="assets/icon/cglogo.png"> </a>
+       <h3>Crust Galore'</h3>
+       <p><i>Top choice bakery</i></p>
+     </div>
+
+<!--MENU SIDEBAR STARTS HERE-->
+    <ul>
+     <li>
+     <a href="index.html" class="active">
+     <span class="icon">HOME</span>
+     </a>
+     </li>
+
+     <li>
+     <a href="aboutus.html">
+     <span class="icon">ABOUT‍‍ US</span>
+     </a>
+     </li>
+
+     <li><a href="#">
+         <button class="dropdown-btn">SHOP     
+         <i class="fa fa-caret-down"></i>
+         </button></a>
+     </li>
+
+     <li><a href="#">
+         <button class="dropdown-btn">PRODUCTS     
+         <i class="fa fa-caret-down"></i>
+         </button></a>
+     </li>
+
+     <li>
+     <a href="faqs.html">
+     <span class="icon">FAQs</span>
+     </a>
+     </li>
+
+     <li>
+     <a href="contactus.html">
+     <span class="icon">CONTACT US</span>
+     </a>
+     </li>
+    </ul>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!--MENU SIDEBAR ENDS HERE-->
+
+<!---START FOOTER--->
+
+<div class="wrapper">
+ <div class="section">
+  <div class="footer" id="main">
+<table class="" style="width:40%">
+  <tr>
+    <th><pre align="left"><font color="white" face="candara">
+
+Address:
+
+Crust Galore Sdn Bhd,
+76, Lorong Saga 1/2,
+Kampung Kelang Makau,
+08000 Sungai Petani,
+Kedah Darul Aman.
+
+</font></pre></th>
+
+<th><pre align="left"><font color="white" face="candara">
+
+Tel: 013-936 1004
+
+Customer support:
+<a href="mailto:crustgalorehelp@gmail.com">crustgalorehelp@gmail.com</a>
+
+</font></pre></th>
+  </tr>
+</table>
+<br>
+Crust Galore' Sdn. Bhd. All right reserved | <a href="assets/pdf/CrustGalore'PrivacyPolicy.pdf" target="blank" download>
+PRIVACY POLICY
+<i class="fa fa-download" style="font-size:24px"></i>
+</a>
+       <script>
+  	function w3_open() {
+ 	document.getElementById("main").style.marginLeft = "9.7%";
+  	document.getElementById("mySidebar").style.width = "9.7%";
+  	document.getElementById("mySidebar").style.display = "block";
+  	document.getElementById("hamburger").style.display = 'none';
+	}
+ 	function w3_close() {
+  	document.getElementById("main").style.marginLeft = "0%";
+  	document.getElementById("mySidebar").style.display = "none";
+  	document.getElementById("hamburger").style.display = "inline-block";
+	}
+       </script>
+  </div>
+ </div>
+</div>
+</footer>
+
+<!---END OF FOOTER--->
+
+</body>
+</html>
